@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* reset */
+body * {
+  box-sizing: border-box;
+}
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* base */
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* main */
+body {
+  background: #666;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.slide {
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+  border: 3px solid #fff;
+  height: 300px;
+  width: 100%;
+}
+.sections {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+.sections section {
+  width: 100%;
+  padding: 20px;
+}
+.sections section h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.sections section p {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.buttons li {
+  margin-left: 20px;
+}
+.buttons li a {
+  text-indent: -9999px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* javascript */
+.current {
+  background-color: #888 !important;
+}
